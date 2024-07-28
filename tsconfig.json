@@ -1,0 +1,7 @@
+{
+  "exclude": ["packages"],
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node"
+  }
+}

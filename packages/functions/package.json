@@ -1,0 +1,26 @@
+{
+  "name": "pre-signup-trigger",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.141",
+    "@types/node": "^20.14.11",
+    "sst": "^2.43.4",
+    "vitest": "^2.0.3"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.616.0",
+    "@aws-sdk/client-dynamodb": "^3.616.0",
+    "@deepgram/sdk": "^3.5.0",
+    "nanoid": "^5.0.7",
+    "openai": "^4.53.2"
+  }
+}
